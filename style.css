@@ -149,3 +149,54 @@ nav>img{
     padding-top: 20%;
     object-position: center;
 }
+.row_b{
+    height: 450px;
+    width: 90%;
+    position: relative;
+    margin-top: 50px;
+}
+.row_title{
+    font-size: 30px;
+    text-align: center;
+}
+.row_text{
+    font-size: 15px;
+    text-align: center;
+}
+.row_b>img{
+    height: 100%;
+    width: 100%;
+}
+.decorated-text{
+    display: block;
+    position: relative;
+    height: 80px;
+}
+.decorated-text img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.decorated-text h3{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 25px;
+}
+.row_b button{
+    color: white;
+    background-color: rgb(96, 0, 221);
+    font-size: 15px;
+    border-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+    margin-top: 20px;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
