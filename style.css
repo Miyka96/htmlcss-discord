@@ -1,9 +1,12 @@
+html{
+    font-family:Sans-serif;
+}
 body{
-    width: 100%;
+    width: 1440px;
     margin: 0 auto;
 }
 .container{
-    width: 75%;
+    width: 1024px;
     margin: 0 auto;
 }
 
@@ -37,7 +40,7 @@ nav>img{
     margin-right: 30px;
     list-style: none;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
 
 }
 .nav_list a{
@@ -78,44 +81,40 @@ nav>img{
     text-align: center;
 }
 .buttons-header{
-    width: 100%;
-    height: 100px;
-    margin: 0 auto;
     position: relative;
-    left: 50%;
-    top:70%;
-    transform: translate(-50%);
+    width: 90%;
+    height: 75px;
+    margin: 0 auto;
+}
+#col_button_1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#col_button_2{
+    width: 50%;
+    height: 100%;
+    float: left;
 }
 #mac-button{
     color: black;
     background-color: white;
     font-size: 20px;
     border-style: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     border-radius: 40px;
-    margin-top: 20px;
-    float: left;
-    position: absolute;
-    left: 0;
-
+    margin-right: 10px;
+    height: 80%;
+    width: 100%;
 }
 #browser-button{
     color: white;
     background-color: rgb(31, 31, 31);
     font-size: 20px;
     border-style: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     border-radius: 40px;
-    margin-top: 20px;
-    float: left;
-    position: absolute;
-    right: 0;
+    margin-left: 10px;
+    height: 80%;
+    width: 100%;
 }
 .row_a{
     height: 380px;
