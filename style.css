@@ -2,7 +2,6 @@ html{
     font-family:Sans-serif;
 }
 body{
-    width: 1440px;
     margin: 0 auto;
 }
 .container{
@@ -198,4 +197,20 @@ nav>img{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+}
+#footer_row{
+    min-height: 450px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(26, 26, 26);
+}
+.footer_col_1{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.footer_col_2{
+    width: 15%;
+    height: 100%;
+    float: left;
 }
